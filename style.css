@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* info section */
+
+.info-section {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.info-title {
+    color: hsl(179, 62%, 43%);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+}
+
+.product-info {
+    color: hsl(218, 22%, 67%);
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* bottom container */
+
+.bottom-container {
+    display: flex;
+    width: 100%;
+}
+
+/* price section */
+
+.price-section {
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    flex: 1;
+}
+
+.monthly-title {
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.monthly-price {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 7px;
+}
+
+small {
+    color: hsl(204, 43%, 93%);
+    font-size: 1rem;
+}
+
+.daily-price {
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 20px;
+}
+
+.btn-sign-up {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(0, 0%, 100%);
+    padding-inline: 90px;
+    padding-block: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+/* why section */
+
+.why-section {
+    background-color: hsl(179, 71%, 45%);
+    padding: 30px;
+    flex: 1;
+}
+
+.why-title {
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.why-info {
+    list-style: none;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    color: hsl(204, 43%, 93%)
+}
+
+/* media queries */
+
+@media (max-width: 425px) {
+    main {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .bottom-container {
+        flex-direction: column;
+    }
+
+    .info-section,
+    .price-section,
+    .why-section {
+        padding: 20px; 
+    }
+
+}
