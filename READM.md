@@ -11,7 +11,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://pashanext.github.io/single-price-grid-component-main/
 
 ### Built with
 
